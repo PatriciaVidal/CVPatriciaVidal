@@ -1625,16 +1625,16 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
-		.image img {
-			display: block;
-			width: 100%;
-			cursor:pointer;
-		}
-
-		.image img :hover{
-			background-image: url("images/pic00-.jpg");
-		}
+	.image{
+		width: 200px;
+		height: 205.94px;
+		background-image: url(../../images/pic00.jpg);
+		background-size: 100% auto;
+		background-position: center;
+	}
+	.image:hover{
+		background-image: url(../../images/pic00-.jpg);
+	}
 
 		.image.fit {
 			display: block;
