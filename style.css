@@ -1,0 +1,31 @@
+h1, h3{
+    padding-top: 180px;
+    padding-left: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#7d198e;
+}
+
+h3{
+    padding-top: 0px;
+    padding-left: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#cc33a5;
+}
+
+h4{
+    padding-top: 30px;
+    padding-left: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+}
+
+footer{
+    margin: 40px, 0;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    text-align: center;
+    background:#d8d4d7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
