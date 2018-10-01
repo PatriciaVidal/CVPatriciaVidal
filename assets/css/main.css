@@ -123,7 +123,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #c657b7;
+		color: #E75083;
 	}
 
 	i, em {
@@ -2373,7 +2373,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 3em 0;
+				padding: 2em 0;
 				text-align: center;
 			}
 
