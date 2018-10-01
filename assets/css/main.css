@@ -2090,6 +2090,10 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
+				#nav {
+					height: auto !important;
+				}
+
 /* Articles */
 
 	body > article {
@@ -2368,6 +2372,17 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+				}
+
+				.box.style2 a img {
+					width: 100%;
+				}
+				.box.style2 .image {
+					background-image: none;
+				}
+
+				#contact img{
+					width: 100%;
 				}
 
 		/* Wrappers */
