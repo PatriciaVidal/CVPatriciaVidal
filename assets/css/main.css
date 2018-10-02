@@ -1836,7 +1836,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin {
-					background-color: #006599;
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1860,7 +1860,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-behance {
-					background-color: #E0D7C8;
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a.fa-foursquare {
@@ -1892,7 +1892,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-whatsapp {
-					background-color: #4fce5d;
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a:hover {
@@ -2388,7 +2388,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 2em 0;
+				
 				text-align: center;
 			}
 
