@@ -18,7 +18,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -82,7 +82,7 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 3em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -114,7 +114,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #819b65 !important;
+			color: #E75083 !important;
 		}
 
 		a img {
@@ -1628,12 +1628,9 @@ input, select, textarea {
 	.image{
 		width: 200px;
 		height: 205.94px;
-		background-image: url(../../images/pic00.jpg);
+		background-image: url(../../images/pic00-.jpg);
 		background-size: 100% auto;
 		background-position: center;
-	}
-	.image:hover{
-		background-image: url(../../images/pic00-.jpg);
 	}
 
 		.image.fit {
@@ -1670,7 +1667,7 @@ input, select, textarea {
 	button,
 	.button {
 		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+
 		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		-moz-transition: background-color .2s ease-in-out;
@@ -1680,20 +1677,20 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: grey !important;
 		text-decoration: none;
 		font-weight: 700;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #819b65;
+		background-color: transparent;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
+		
 	}
 
 		input[type="button"]:hover,
@@ -1701,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color:#b0e07d;
+			background-color:#E75083;
 			color: #fff !important;
 		}
 
@@ -1933,6 +1930,11 @@ input, select, textarea {
 			padding: 3em 2em 3.5em 2em;
 		}
 
+		.lista{
+			text-align: left;
+			padding: 1em 2em;
+		}
+
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
@@ -1985,9 +1987,8 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		padding: 8em 0 8em 0;
+		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 
@@ -2007,13 +2008,13 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #819b65;
-			color: whitesmoke;
+			background-color:  #fafafa;
+			color: grey;
 			
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color:black;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2029,7 +2030,7 @@ input, select, textarea {
 
 	#nav {
 		background-color: black;
-		text-align: center;
+		text-align: right;
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -2204,7 +2205,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 8em 0;
+				padding: 6em 0;
 			}
 
 				#top .image {
@@ -2458,3 +2459,11 @@ input, select, textarea {
 		margin: 5%;
 	}
 
+	.navbar-brand{
+		text-align: left;
+	}
+
+	.nombrecito{
+		text-align: left;
+		display: inline;
+	}
