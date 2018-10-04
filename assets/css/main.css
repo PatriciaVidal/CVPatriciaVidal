@@ -2030,7 +2030,7 @@ input, select, textarea {
 
 	#nav {
 		background-color: black;
-		text-align: right;
+		text-align: left;
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -2102,7 +2102,7 @@ input, select, textarea {
 	}
 
 	#top {
-		padding: 10em 0 10em 0;
+		padding: 5em 0 10em 0;
 		text-align: left;
 	}
 
@@ -2466,4 +2466,10 @@ input, select, textarea {
 	.nombrecito{
 		text-align: left;
 		display: inline;
+		padding-top: 3em;
+	}
+
+	.menu{
+		text-align:right;
+		display:inline;
 	}
