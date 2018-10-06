@@ -119,6 +119,7 @@ input, select, textarea {
 
 		a img {
 			border: 0;
+			margin-bottom: -13px;
 		}
 
 	b, strong {
@@ -2466,10 +2467,12 @@ input, select, textarea {
 	.nombrecito{
 		text-align: left;
 		display: inline;
-		padding-top: 3em;
+		
 	}
 
 	.menu{
 		text-align:right;
 		display:inline;
 	}
+
+	
