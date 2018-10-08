@@ -98,7 +98,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
-		line-height: 1.85em;
+		line-height: 1.75em;
 		color: #888;
 		font-weight: 300;
 		font-size: 13pt;
@@ -1626,7 +1626,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-	.image{
+	#top .image{
 		width: 200px;
 		height: 205.94px;
 		background-image: url(../../images/pic00-.jpg);
@@ -1702,50 +1702,6 @@ input, select, textarea {
 			background-color:#E75083;
 			color: #fff !important;
 		}
-
-		input[type="button"]:active,
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
-			background-color: #b0e07d;
-			top: 1px;
-		}
-
-		input[type="button"].large,
-		input[type="submit"].large,
-		input[type="reset"].large,
-		button.large,
-		.button.large {
-			font-size: 1.5em;
-			letter-spacing: -0.025em;
-		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
-		}
-
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background-color: #4f4f4f;
-				color: #fff !important;
-			}
-
-			input[type="button"].alt:active,
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			button.alt:active,
-			.button.alt:active {
-				background-color: #3f3f3f;
-			}
 
 /* List */
 
@@ -1898,7 +1854,8 @@ input, select, textarea {
 				}
 
 					ul.social li a:hover:before {
-						background-color: transparent;
+						
+						
 					}
 
 /* Actions */
@@ -2011,7 +1968,7 @@ input, select, textarea {
 		.wrapper.style4 {
 			background-color:  #fafafa;
 			color: grey;
-			
+			padding-bottom: 0px;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2109,8 +2066,8 @@ input, select, textarea {
 
 		#top .image {
 			border-radius: 100%;
-			width: 20em;
-			height: 20em;
+			width: 17em;
+			height: 17em;
 			margin: 0;
 		}
 
@@ -2125,6 +2082,7 @@ input, select, textarea {
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			text-align: justify;
 		}
 
 			#top p a {
@@ -2133,6 +2091,8 @@ input, select, textarea {
 
 	#contact footer {
 		font-size: 0.9em;
+		display: flex;
+		flex-direction: column;
 	}
 
 /* Copyright */
@@ -2210,8 +2170,8 @@ input, select, textarea {
 			}
 
 				#top .image {
-					width: 24em;
-					height: 24em;
+					width: 20em;
+					height: 20em;
 					margin: 0;
 				}
 
@@ -2383,9 +2343,6 @@ input, select, textarea {
 					background-image: none;
 				}
 
-				#contact img{
-					width: 100%;
-				}
 
 		/* Wrappers */
 
@@ -2475,4 +2432,125 @@ input, select, textarea {
 		display:inline;
 	}
 
-	
+	.d-none{
+		display: none;
+	}
+
+	.d-flex{
+		display: flex;		
+	}
+
+	.flex-nowrap{
+		flex-wrap: nowrap
+	}
+
+	.m-0{
+		margin: 0;
+	}
+
+	.ml-auto{
+		margin-left: auto;
+	}
+
+	.list-unstyled{
+		list-style: none;		
+	}
+
+	nav.pv-nav .logo{
+		line-height: 53px;
+	}
+
+	nav.pv-nav {
+		background-color: #000;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	nav.pv-nav ul{
+		position: absolute;
+		top: 53px;
+		left: 0;
+		width: 100%;
+		display: block;
+		background-color: #000;
+		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.5);
+		height: 0px;
+		overflow: hidden;
+		transition: all 0.3s ease-out;
+		padding-left: 0;
+	}
+
+	nav.pv-nav ul.active{
+		height: 140px;
+	}
+
+	nav.pv-nav ul li a {
+		border-radius: 10px;
+		padding: 5px 20px;
+		display: block;
+		margin: 8px;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	nav.pv-nav ul li a:hover {
+		color: #fff!important;
+		background-color: rgba(255,255,255,0.3);
+		text-decoration: none;
+	}
+
+	.menu-btn {
+		width: 35px;
+		margin-right: 0;
+		box-shadow: none;
+	}
+
+	.menu-btn label {
+		margin: 0px 0px;
+		display: block;
+		height: 3px;
+		width: 35px;
+		background-color: #fff;
+	}
+
+	.menu-btn label:nth-child(2) {
+		margin: 4px 0px;
+	}
+
+	.pv-nav .container {
+		margin-left: 30px;
+		margin-right: 30px;
+		max-width: calc(100% - 60px);
+	}
+
+	.menu-btn:hover {
+		background-color: transparent;
+		padding-top: 18px;
+		padding-bottom: 17px;
+	}
+
+	@media(min-width: 768px){
+		.d-md-flex{
+			display: flex!important;
+		}
+		.d-md-none{
+			display: none;
+		}
+		.ml-md-auto{
+			margin-left: auto!important;
+		}
+
+		nav.pv-nav{
+			box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+		}
+
+		nav.pv-nav ul{
+			height: auto!important;
+			width: auto;
+			position: static;
+			box-shadow: none;
+		}
+	}
+

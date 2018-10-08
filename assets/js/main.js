@@ -31,4 +31,20 @@
 			offset: function() { return $nav.height(); }
 		});
 
+		$('.menu-btn label').click(function(e){
+			if($('nav.pv-nav ul').hasClass('active')){
+				$('nav.pv-nav ul').removeClass('active');
+			}else{
+				$('nav.pv-nav ul').addClass('active');
+			}			
+		});
+
+		$('.menu-btn').click(function(e){
+			if($('nav.pv-nav ul').hasClass('active')){
+				$('nav.pv-nav ul').removeClass('active');
+			}else{
+				$('nav.pv-nav ul').addClass('active');
+			}			
+		});
+
 })(jQuery);
