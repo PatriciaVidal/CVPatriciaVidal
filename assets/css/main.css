@@ -1852,11 +1852,11 @@ input, select, textarea {
 				ul.social li a:hover {
 					top: -5px;
 				}
-
-					ul.social li a:hover:before {
-						
-						
-					}
+				/*
+				ul.social li a:hover:before{
+					
+					
+				}*/
 
 /* Actions */
 
