@@ -1630,7 +1630,7 @@ input, select, textarea {
 		width: 200px;
 		height: 205.94px;
 		background-image: url(../../images/patricial_vidal.png);
-		background-size: 100% auto;
+		background-size: cover;
 		background-position: center;
 	}
 
@@ -1853,10 +1853,18 @@ input, select, textarea {
 					top: -5px;
 				}
 				/*
+<<<<<<< HEAD
 				ul.social li a:hover:before{
 					
 					
 				}*/
+=======
+					ul.social li a:hover:before {
+						
+						
+					}
+				*/
+>>>>>>> origin
 
 /* Actions */
 
